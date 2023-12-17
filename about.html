@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            background-color: white;
+            color: rgb(0, 0, 0);
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5px auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #40b736;
+        }
+    </style>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h1>About Gerald</h1>
+        <p style="font-weight: bold;color:grey">Senior Software Engineer...</p>
+        <div class="about-info">
+            <div class="about-img">
+                <img src="https://kimbalite.com/fullstackacademy/block09/3.jpg" alt="Gerald">
+            </div>
+            <div>
+                <p>I've worked in software engineering for my entire 15-year career, and my commitment to critical
+                    thinking and attention to detail have gotten me to where I am today:
+                    a senior software engineer from <a href="https://fullstackacademy.com" target="_blank">Fullstack
+                        Academy</a>.
+                    I have a passion for processes, and I'm an experienced team leader who typically manages over 10
+                    developers at any given time.<br><br>
+                    Prior to my senior role, I worked as a software engineer for the U.S Army and a programmer for
+                    Jefferson Community College.
+                    Because I've already served in various other I.T positions in this field, ranging from helpdesk
+                    support to systems administration, I have keen insight into what it takes to run a successful
+                    project.
+                    My career goal is to move into management as a CTO, and I know this role would help me hone my <a
+                        href="https://kimbalite.com" target="_blank">leadership skills</a>.</p>
+                <button>Learn More...</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <h1>In my free time, I engage in:</h1>
+        <div class="team-cards">
+            <!-- Cards here -->
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://kimbalite.com/fullstackacademy/block09/3.png" alt="Sports">
+                </div>
+                <div class="card-info">
+                    <h2 class="card-name">Sports</h2>
+                    <p class="card-role">Soccer, Cycling, Running</p>
+                    <p class="card-email">Weight-lifting, Volleyball...</p>
+                    <p><button class="button">Join Me</button></p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://kimbalite.com/fullstackacademy/block09/4.png" alt="Hiking">
+                </div>
+                <div class="card-info">
+                    <h2 class="card-name">Hiking</h2>
+                    <p class="card-role">Hiking isn't just good for your body.</p>
+                    <p class="card-email">It's good for your mind too!</p>
+                    <p><button class="button">Join Me</button></p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://kimbalite.com/fullstackacademy/block09/5.png" alt="Movies">
+                </div>
+                <div class="card-info">
+                    <h2 class="card-name">Movies</h2>
+                    <p class="card-role">I enjoy watching Netflix, Prime,</p>
+                    <p class="card-email">Paramount+ and other shows.</p>
+                    <p><button class="button">Join Me</button></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 Gerald Saccoi. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #fef8f8;
+        }
+
+        /* Header */
+        header {
+            background-color: white;
+            color: rgb(0, 0, 0);
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5px auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #40b736;
+        }
+    </style>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h1>My Portfolio</h1>
+        <p style="font-weight: bold;color: blue">Feel free to explore...</p>
+        <div class="about-info">
+            <div class="about-img">
+                <img src="https://kimbalite.com/fullstackacademy/block09/4.jpg" alt="Gerald">
+            </div>
+            <div>
+                <p>Outlined below are some software solutions I and my software development team
+                    from around the globe have worked on and developed to help out a lot of individuals, businesses,
+                    schools, government, religious and even charity organizations streamline their daily processes
+                    and operations in a seamless and well organized manner.<br><br>As of today, I'm very proud to admit
+                    that these solutions are widely in use by over 500 entities, and we're still providing our
+                    relentless
+                    support to ensure they always meet standards and expectations. Please feel free to explore...</p>
+                <a href="https://kimbalite.com/" target="_blank"><button>Learn More...</button></a>
+            </div>
+        </div>
+    </section>
+
+    <ul class="cards">
+        <li>
+            <a href="https://kimbalite.com/index.php?rt=product/product&path=68_69&product_id=239" target="_blank"
+                class="card">
+                <img src="https://kimbalite.com/fullstackacademy/block09/6.PNG" class="card__image" alt="ezcommerce" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                            <path />
+                        </svg>
+                        <img class="card__thumb" src="https://kimbalite.com/fullstackacademy/block09/7.png" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">EZ-Commerce</h3>
+                            <span class="card__status">eCommerce Solution</span>
+                        </div>
+                    </div>
+                    <p class="card__description">A very robust eCommerce solution built using ASP.Net C# and other .Net
+                        technologies.</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://kimbalite.com/index.php?rt=product/product&path=68_70&product_id=207" target="_blank"
+                class="card">
+                <img src="https://kimbalite.com/fullstackacademy/block09/8.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                            <path />
+                        </svg>
+                        <img class="card__thumb" src="https://kimbalite.com/fullstackacademy/block09/7.png" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Business ERP</h3>
+                            <span class="card__status">Enterprise Solution</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Developed in PHP for small to large scale businesses in the
+                        manufacturing industry.</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://kimbalite.com/index.php?rt=product/product&path=68_69&product_id=168" target="_blank"
+                class="card">
+                <img src="https://kimbalite.com/fullstackacademy/block09/9.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                            <path />
+                        </svg>
+                        <img class="card__thumb" src="https://kimbalite.com/fullstackacademy/block09/7.png" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">School Package</h3>
+                            <span class="card__tagline">A complete school management system developed to manage the
+                                daily affairs of any institution of learning.</span>
+                            <span class="card__status">WPF C#</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Manages admissions, finance, class assignments, attendance, marks
+                        entry, staff, payroll and much more...</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://kimbalite.com/index.php?rt=product/product&path=68_69&product_id=180" target="_blank"
+                class="card">
+                <img src="https://kimbalite.com/fullstackacademy/block09/10.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                            <path />
+                        </svg>
+                        <img class="card__thumb" src="https://kimbalite.com/fullstackacademy/block09/7.png" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Retail POS</h3>
+                            <span class="card__status">VB.Net</span>
+                        </div>
+                    </div>
+                    <p class="card__description">A very robust retail point of sale system to run grocery stores,
+                        supermarkets and any retail business.</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+
+</body>
+
+</html>
