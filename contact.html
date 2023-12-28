@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            background-color: white;
+            color: rgb(0, 0, 0);
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5px auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #40b736;
+        }
+    </style>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+
+        <div class="about-info">
+            <div class="about-img">
+                <img src="https://kimbalite.com/fullstackacademy/block09/3.jpg" alt="Gerald">
+            </div>
+            <section class="contact-section">
+                <h3>Contact Gerald</h3>
+                <form class="form">
+                    <div class="id">
+                        <div class="name">
+                            <label for="name" class="label">Name</label>
+                            <input id="name" type="text" name="name" placeholder="e.g. Gerald Saccoi" required>
+                        </div>
+                        <div class="email">
+                            <label for="email" class="label">Email</label>
+                            <input id="email" type="email" name="email" placeholder="e.g. latispq@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <label for="subject" class="label">Subject</label>
+                        <input id="subject" type="text" name="subject" placeholder="e.g. Website Development Inquiry"
+                            required>
+                    </div>
+                    <div class="content">
+                        <label for="content" class="label">Message</label>
+                        <textarea name="content" id="content" cols="30" rows="10" required
+                            placeholder="e.g. &#10;Hello Gerald! How much would it cost to develop an eCommerce website with PayPal payment gateway integration?"></textarea>
+                        <button type="submit">SEND</button>
+
+                    </div>
+                </form>
+            </section>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2023 Gerald Saccoi. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
